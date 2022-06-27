@@ -20,7 +20,7 @@ public class AppInit extends AbstractAnnotationConfigDispatcherServletInitialize
     protected Class<?>[] getServletConfigClasses() {
 
         return new Class<?>[]{
-                WebConfig.class
+                WebConfig.class,HibernateConfig.class
         };
     }
 
